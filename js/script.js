@@ -58,7 +58,7 @@ function loadData() {
         url: urlwiki,
         dataType: 'jsonp'
     } ).success( function ( data ) {
-        // console.log(data);
+        console.log(data);
         var p = data[2];
         // console.log(p.length);
         var tmp = [];
