@@ -57,7 +57,7 @@ function loadData() {
     $.ajax( {
         url: urlwiki,
         dataType: 'jsonp'
-    } ).success( function ( data ) {
+    } ).done( function ( data ) {
         console.log(data);
         var p = data[2];
         // console.log(p.length);
